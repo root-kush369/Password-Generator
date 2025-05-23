@@ -1,0 +1,170 @@
+        <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PasswordGenerator</title>
+        
+
+        <!-- <link rel="stylesheet" href="main.css"> -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- fonts -->
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    
+
+
+
+    </head>
+    <body >
+        
+
+
+        <div class="wrapper">
+
+    <!-- in tailwind specificity of inline css is most i.e using class concept >[ than internal > external they are not of tailwind-->
+    
+    <!-- most external > internal > inline -->
+    <!-- in simple css too inline > internal >external -->
+
+            <div class="container-containing-everything" >
+
+                        <!-- 1 -->
+                        <!-- div -heading top-->
+
+                        <div class="top-heading">
+                            Password Generator
+
+                        </div>
+            <!-- <br> -->
+
+
+
+
+
+
+
+
+            <!-- 2 --> 
+            <!-- getting data -->
+            
+            <!-- here learned creating own custom attribute -->
+            <div class="display-container">
+
+                <!-- 2.1 -->
+                <!-- data display in input ~THIS IS INPUT BOX!-->
+                <div>
+                <input readonly placeholder="password" data-passwordDisplay class="display">
+                </div>
+                
+
+                <!-- 2.2 -->
+                <!-- copy-button -->
+                <div>
+                    
+                    <button class="password-copybutton" data-copy >
+                        <span class="copy-text-above-copy-msg" data-copyMsg ></span>
+                        <img src="copy.svg" alt="notloaded" ; height="24px" ; width="24px" class="copyimg">
+                        <!-- <img src="checkmark.png" alt="notloaded" ; height="24px" ; width="24px" class="copyimg"> -->
+                    </button>
+                
+                </div>
+                
+                <br>
+            </div>
+
+
+            <!-- 3 main-content-box -->
+                
+
+                    
+            
+                <div class="input-container">
+                    <!-- 3.1 -->
+                    <!-- heading password length and no-of-characters in password -->
+
+                    <div class="length-container">
+                        <p class="length-display">Password length</p>
+
+                        <p data-lengthNumber>0</p>
+                    </div>
+
+
+
+                    <!-- 3.2 -->
+                    <!-- scrollbar -->
+                    <div class="slider-scrollbar">
+                        <input class="slider" type="range" name="" id="" ; min="0" ; max="20" ; class="Slider" ; step="1" data-lengthSlider>
+                    </div>
+
+
+                    <!-- 3.3 checkbox-->
+                    <div>
+
+                            <div class="check">
+                                <input type="checkbox" id="UpperCase" name="includeU">
+                                <label for="includeOne">Include UpperCase Letters</label>
+                            </div>
+
+                                
+                        <div class="check">
+                                <input type="checkbox" id="LowerCase" name="includeLo">
+                                <label for="includeTwo">Include LowerCase Letters</label>
+                            </div>
+
+                        <div class="check">
+                                <input type="checkbox" id="Numbers" name="includeNum">
+                                <label for="includeThree">Include Numbers</label>
+                            </div>
+                                
+                        <div class="check">
+                                <input type="checkbox" id="Symbols" name="includeSym">
+                                <label for="includeFour">Include Symbols</label>
+                            </div>
+                    </div>
+
+        <!-- <br>
+                    <input type="radio" id="rd" name="ok">
+                    <label for="rd">Male</label>
+                    <input type="radio" id="rdd" name="ok">
+                    <label for="rdd">Female</label> -->
+
+
+                    <!-- 4 -->
+                        <!-- strength and button -->
+                        <div class="strength-container">
+                            <p>Strength</p>
+
+                            <div class="indicator-HU" data-indicator> </div>
+                        </div>
+
+                        <!-- 5 -->
+                        <div>
+                            <button class="Generate-Button">
+                                Generate Password
+                            </button>
+                        </div>
+                <!-- </div> -->
+                    <!-- 6 -->
+                    <div >
+                        <button class="Clear-Button">
+                            Clear
+                        </button>
+                    </div>
+                </div>
+
+            
+            </div>
+        </div>
+
+            
+        </div>
+
+        <script src="scripts.js"></script>
+        <!-- <script src="testttt.js"></script> -->
+
+    </body>
+    </html>

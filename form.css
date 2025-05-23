@@ -1,0 +1,19 @@
+.table-div
+{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.table-form
+{
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid whitesmoke;
+}
+.text-content-inside-tr
+{
+    font-size: 42px;
+}
