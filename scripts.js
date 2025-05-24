@@ -604,6 +604,10 @@ datacopyButton.addEventListener("click",function(event){
         retrievedParentofcopyimg.style.cssText= "pointer-events:true";
     },1500);  
 }
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 //  step5th
 let iamclearbutton=document.querySelector(".Clear-Button");

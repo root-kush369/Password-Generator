@@ -27,7 +27,14 @@ body{
     align-items: center;
 }
 
-
+.container-containing-everything
+{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-items: center; */
+}
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* //local and global variable concept is not as such in css */
 /* but local used inside selector class id tags or psuedo */
