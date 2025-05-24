@@ -74,8 +74,8 @@ Want to make this app better? Fork the repository, make your changes, and submit
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📬 Contact
-Got questions or feedback? Reach out to me at [your-email@example.com] or open an issue on GitHub. Let’s talk about coding! 💬
+Got questions or feedback? Reach out to me at [5kushbhardwaj7@gmail.com] or open an issue on GitHub. Let’s talk about coding! 💬
 
 ---
 
-Built with ❤️ by [root-kush369](https://github.com/root-kush369)
+Built with ❤️ by [Kush Bhardwaj](https://github.com/root-kush369)
