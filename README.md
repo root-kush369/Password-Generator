@@ -1,4 +1,4 @@
-# Password Generator 🔒✨
+# Pass Fury 🔒✨
 
 A simple and user-friendly Password Generator app built with HTML, CSS, and vanilla JavaScript. This project lets you create random passwords by choosing options like uppercase letters, lowercase letters, numbers, and symbols. It’s a great way to showcase my skills in building interactive web apps! 🚀
 
